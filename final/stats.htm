@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+   <title>Sortable Table of QB Statistics</title>
+   <link href="tstyles.css" rel="stylesheet" type="text/css" />
+
+   <script type="text/javascript" src="tablesort.js"></script>
+
+</head>
+
+<body>
+   <form id="pageform" action="">
+   <div id = "page">
+
+      <div id="head">
+         <div id = "searchbox">
+            Search
+            <input type="text" id="sbox" size="20" />
+         </div>
+         <img src="sasrlogo.png" alt="Sporting Abstract and Statistical Review" />
+      </div>
+
+      <ul id="mainLinks">
+         <li><a href="#">NFL Home Page</a></li>
+         <li><a href="#">Standings</a></li>
+         <li><a href="#">Team Stats</a></li>
+         <li><a href="#">Player Stats</a></li>
+         <li><a href="#">Point Spreads</a></li>
+         <li><a href="#">Trends</a></li>
+         <li><a href="#">Almanac</a></li>
+         <li><a href="#">Fantasy</a></li>
+      </ul>
+
+      <ul id="sideLinks">
+         <li class="newg"><a href="#">Home Page</a></li>
+         <li class="newg"><a href="#">Sports</a></li>
+         <li><a href="#">NFL</a></li>
+         <li><a href="#">MLB</a></li>
+         <li><a href="#">NBA</a></li>
+         <li><a href="#">NHL</a></li>
+         <li><a href="#">NCAA Football</a></li>
+         <li><a href="#">NCAA Basketball</a></li>
+         <li><a href="#">Boxing</a></li>
+         <li><a href="#">Other Sports</a></li>
+         <li class="newg"><a href="#">Columns</a></li>
+         <li><a href="#">Game Review</a></li>
+         <li><a href="#">Syndicated Columns</a></li>
+         <li><a href="#">Simulations</a></li>
+
+         <li class="newg"><a href="#">Betting</a></li>
+         <li><a href="#">Point Spreads</a></li>
+         <li><a href="#">Betting Lines</a></li>
+         <li><a href="#">Odds &amp; Projections</a></li>
+         <li><a href="#">Links</a></li>
+      </ul>
+
+      <div id = "content">
+         <h1>NFL</h1>
+         <h2>Quaterback Statistics and Ratings</h2>
+
+         <table class="sortable" id="qbstats">
+            <caption>Passing statistics in 2017</caption>
+            <colgroup>
+               <col id="playercol" class="asort" />
+               <col id="teamcol" class="asort" />
+               <col id="compcol" class="numsort" />
+               <col id="attcol" class="numsort" />
+               <col id="pctcol" class="numsort" />
+               <col id="ydscol" class="numsort" />
+               <col id="tdscol" class="numsort" />
+               <col id="intscol" class="numsort" />
+               <col id="ratingcol" class="numsort" />
+            </colgroup>
+            <thead>
+               <tr>
+                  <th>Player</th>
+                  <th>Team</th>
+                  <th>Comp</th>
+                  <th>Att</th>
+                  <th>Pct.</th>
+                  <th>Yds</th>
+                  <th>TDs</th>
+                  <th>Ints</th>
+                  <th>Rating</th>
+               </tr>
+            </thead>
+            <tfoot>
+               <tr>
+                  <td colspan="9">Stats </td>
+               </tr>
+            </tfoot>
+            <tbody>
+               <tr>
+                  <td>Tom Brady</td>
+                  <td>NE</td>
+                  <td class="numtd">385</td>
+                  <td class="numtd">581</td>
+                  <td class="numtd">66.3</td>
+                  <td class="numtd">4,577</td>
+                  <td class="numtd">32</td>
+                  <td class="numtd">8</td>
+                  <td class="numtd">102.8</td>
+               </tr>
+               <tr>
+                  <td>Philip Rivers</td>
+                  <td>LAC</td>
+                  <td class="numtd">360</td>
+                  <td class="numtd">575</td>
+                  <td class="numtd">62.6	</td>
+                  <td class="numtd">4,515	</td>
+                  <td class="numtd">28</td>
+                  <td class="numtd">10</td>
+                  <td class="numtd">96.0</td>
+               </tr>
+               <tr>
+                  <td>Matthew Stafford</td>
+                  <td>DET</td>
+                  <td class="numtd">371</td>
+                  <td class="numtd">565</td>
+                  <td class="numtd">65.7</td>
+                  <td class="numtd">4,446</td>
+                  <td class="numtd">29</td>
+                  <td class="numtd">10</td>
+                  <td class="numtd">99.3</td>
+               </tr>
+               <tr>
+                  <td>Drew Brees</td>
+                  <td>NO</td>
+                  <td class="numtd">386</td>
+                  <td class="numtd">536</td>
+                  <td class="numtd">72.0	</td>
+                  <td class="numtd">4,334</td>
+                  <td class="numtd">23</td>
+                  <td class="numtd">8	</td>
+                  <td class="numtd">103.9</td>
+               </tr>
+               <tr>
+                  <td>Ben Roethlisberger</td>
+                  <td>	PIT</td>
+                  <td class="numtd">360</td>
+                  <td class="numtd">561</td>
+                  <td class="numtd">64.2	</td>
+                  <td class="numtd">4,251</td>
+                  <td class="numtd">28</td>
+                  <td class="numtd">14</td>
+                  <td class="numtd">93.4</td>
+               </tr>
+               <tr>
+                  <td>Matt Ryan</td>
+                  <td>ATL</td>
+                  <td class="numtd">342</td>
+                  <td class="numtd">529</td>
+                  <td class="numtd">64.7	</td>
+                  <td class="numtd">4,095</td>
+                  <td class="numtd">20</td>
+                  <td class="numtd">12</td>
+                  <td class="numtd">91.4</td>
+               </tr>
+               <tr>
+                  <td>Kirk Cousins</td>
+                  <td>WAS</td>
+                  <td class="numtd">347</td>
+                  <td class="numtd">540</td>
+                  <td class="numtd">64.3</td>
+                  <td class="numtd">4,093</td>
+                  <td class="numtd">27</td>
+                  <td class="numtd">13</td>
+                  <td class="numtd">93.9</td>
+               </tr>
+               <tr>
+                  <td>Alex Smith</td>
+                  <td>KC</td>
+                  <td class="numtd">341</td>
+                  <td class="numtd">505</td>
+                  <td class="numtd">67.5</td>
+                  <td class="numtd">4,042</td>
+                  <td class="numtd">26</td>
+                  <td class="numtd">5</td>
+                  <td class="numtd">104.7</td>
+               </tr>
+               <tr>
+                  <td>Russell Wilson</td>
+                  <td>SEA</td>
+                  <td class="numtd">339</td>
+                  <td class="numtd">553</td>
+                  <td class="numtd">61.3</td>
+                  <td class="numtd">3,983</td>
+                  <td class="numtd">34</td>
+                  <td class="numtd">11</td>
+                  <td class="numtd">95.4</td>
+               </tr>
+               <tr>
+                  <td>Jared Goff</td>
+                  <td>LA</td>
+                  <td class="numtd">296</td>
+                  <td class="numtd">477</td>
+                  <td class="numtd">62.1</td>
+                  <td class="numtd">3,804</td>
+                  <td class="numtd">28</td>
+                  <td class="numtd">7</td>
+                  <td class="numtd">100.5</td>
+               </tr>
+               <tr>
+                  <td>Blake Bortles</td>
+                  <td>JAX</td>
+                  <td class="numtd">315</td>
+                  <td class="numtd">523</td>
+                  <td class="numtd">60.2</td>
+                  <td class="numtd">3,687</td>
+                  <td class="numtd">21</td>
+                  <td class="numtd">13</td>
+                  <td class="numtd">84.7</td>
+               </tr>
+               <tr>
+                  <td>Case Keenum</td>
+                  <td>MIN</td>
+                  <td class="numtd">325</td>
+                  <td class="numtd">481</td>
+                  <td class="numtd">67.6</td>
+                  <td class="numtd">3,547</td>
+                  <td class="numtd">22</td>
+                  <td class="numtd">7</td>
+                  <td class="numtd">98.3</td>
+               </tr>
+               <tr>
+                  <td>Jameis Winston</td>
+                  <td>TB</td>
+                  <td class="numtd">282</td>
+                  <td class="numtd">442</td>
+                  <td class="numtd">63.8</td>
+                  <td class="numtd">3,504</td>
+                  <td class="numtd">19</td>
+                  <td class="numtd">11</td>
+                  <td class="numtd">92.2</td>
+               </tr>
+               <tr>
+                  <td>Derek Carr</td>
+                  <td>OAK</td>
+                  <td class="numtd">323</td>
+                  <td class="numtd">515</td>
+                  <td class="numtd">62.7</td>
+                  <td class="numtd">3,496</td>
+                  <td class="numtd">22</td>
+                  <td class="numtd">13</td>
+                  <td class="numtd">86.4</td>
+               </tr>
+               <tr>
+                  <td>Eli Manning</td>
+                  <td>NYG</td>
+                  <td class="numtd">352</td>
+                  <td class="numtd">571</td>
+                  <td class="numtd">61.6</td>
+                  <td class="numtd">3,468</td>
+                  <td class="numtd">19</td>
+                  <td class="numtd">13</td>
+                  <td class="numtd">80.4</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+
+   </div>
+
+   </form>
+</body>
+
+</html>
